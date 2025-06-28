@@ -27,7 +27,8 @@ function Products() {
       {
         products.map((product) => <ProductCard key={product.id} data={product}/>)
       }
-    </section>))
+    </section>)
+    )
     
   
 }
